@@ -12,6 +12,19 @@ body{
     background-color: #22212C;
     color: #837E9F;
 }
+a{
+    text-decoration:none;
+}
+a:hover{
+    color: #00ff00;
+    transition: 1s;
+}
+#perfil{
+    margin-top: 30px;
+    border-radius: 50%;
+    height: 150px;
+    border: 3px solid #00ff00;
+}
 .secs{
     border-radius: 20px;
     border: 1px solid rgb(10, 10, 10);
@@ -77,6 +90,10 @@ body{
     left: 939px;
     top: 157px;
 }
+#sec3 a:hover , #sec4 a:hover {
+    color:#00ff00;
+    transition: 1s;
+}
 #sec4{
     left: 448px;
     top: 157px;
@@ -95,6 +112,7 @@ body{
 #sec7{
     left: 40px;
     top: 362px;
+    background: linear-gradient(45deg, blue , rgb(236, 96, 119));
 }
 #sec8{
     width: 350px;
