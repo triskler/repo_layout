@@ -19,10 +19,12 @@ body{
     fill: #302F3D;
     box-shadow: 2px 2px 2px 1px #000000;
 }
+.abs{
+    position: absolute;
+}
 #sec1{
     width: 348px;
     height: 292px;
-    position: absolute;
     left: 40px;
     top: 40px;
     text-align: center;
@@ -42,12 +44,17 @@ body{
     font-size: 13px;
     font-weight: 300;
 }
+#circle{
+    height: 13px;
+    position: relative;
+    right: 30px;
+    bottom: 20px;
+}
 .wdh{
     width: 952px;
 }
 #sec2{
     height: 86px;
-    position: absolute;
     top: 40px;
     left: 448px;
     display: flex;
@@ -67,52 +74,46 @@ body{
     height: 186px;
 }
 #sec3{
-    position: absolute;
     left: 939px;
     top: 157px;
 }
 #sec4{
-    position: absolute;
     left: 448px;
     top: 157px;
 }
 #sec5{
     height: 86px;
-    position: absolute;
+
     left: 448px;
     top: 373px;
 }
 #sec6{
-    position: absolute;
     height: 200px;
     left: 448px;
     top: 489px;
 }
 #sec7{
-    position: absolute;
     width: 348px;
     height: 348px;
     left: 40px;
     top: 362px;
 }
 #sec8{
-    position: absolute;
     width: 350px;
     height: 208px;
     left: 40px;
     top: 740px;
 }
-#sec9{
-    position: absolute;
+.wdh2{
     width: 350px;
     height: 350px;
+}
+#sec9{
+    
     left: 40px;
     top: 978px;
 }
 #sec10{
-    position: absolute;
-    width: 350px;
-    height: 350px;
     left: 40px;
     top: 1357px;
 }
@@ -122,7 +123,6 @@ footer{
     font-size: 14px;
     line-height: 20px;
     color: #837E9F;
-    position: absolute;
     width: 206px;
     height: 19px;
     left: 617px;
