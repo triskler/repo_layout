@@ -150,7 +150,13 @@ p.folder{
     left: 70%;
 }
 .social{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.img-adj{
+    position: relative;
+    top: 35px;
+    margin-left: 30px;
+    
 }
