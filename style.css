@@ -141,7 +141,7 @@ button:hover{
     width: 350px;
 }
 #sec9{
-    
+    text-align: justify;
     left: 40px;
     top: 978px;
 }
@@ -209,4 +209,26 @@ p.folder{
     text-transform: uppercase;
     position: relative;
     bottom: 3px;
+}
+.artigo{
+    text-align: justify;
+    position: relative;
+    left: 25%;
+    bottom: 92%;
+    margin: 10px;
+    line-height: 30px;
+    
+}
+#perfil2{
+    border-radius: 50%;
+    height: 150px;
+    border: 3px solid #00ff00;
+    margin: 25px 25px;
+}
+.edu{
+    margin: 30px;
+    text-align: center;
+}
+.topics{
+    margin: 30px;
 }
